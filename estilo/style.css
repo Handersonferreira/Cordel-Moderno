@@ -31,7 +31,7 @@ header > h1 {
    padding-top: 50px;
    font-variant: small-caps;
    font-family: var(--fonte2);
-   font-size: 4em;
+   font-size: 3em;
 }
 
 header > p {
@@ -46,26 +46,23 @@ header a,footer a {
 }
 
 header a:hover,footer a:hover {
-    color: yellow;
-    text-decoration: none;
+    color: rgb(255, 136, 0);
+    text-decoration: underline;
 }
 
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 60px;
+    padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 1.3em;
     
 }
 
 section > p {
-   padding: 20px;
-    width: 300px;
-    border-radius: 10px;
+
     padding-bottom: 2em;
-    background-color: rgba(118, 117, 117, 0.2);
 }
 
 section.normal {
@@ -96,7 +93,7 @@ section#img02 {
 section.imagem > p {
     display: inline-block;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.497);
     padding: 10px;
     text-shadow: 1px 1px 0px black;
 
@@ -106,6 +103,5 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 30px 10px;
-   
+    padding: 10px;
 }
